@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Metadata -->
+  <title>Abishek W | Digital Marketer | SEO & Meta Ads</title>
+  <meta name="description" content="Abishek W is a Digital Marketer specializing in SEO, Meta Ads, Google Ads, social media marketing, lead generation and campaign optimization.">
+  
+  <!-- Open Graph / Social Media Metadata -->
+  <meta property="og:title" content="Abishek W | Digital Marketer | SEO & Meta Ads">
+  <meta property="og:description" content="Digital Marketer specializing in SEO, Meta Ads, Google Ads, social media marketing, lead generation and campaign optimization.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/abishek-profile.jpg">
+  <meta property="og:image:alt" content="Abishek W - Digital Marketer">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abishek W | Digital Marketer | SEO & Meta Ads">
+  <meta name="twitter:description" content="Digital Marketer specializing in SEO, Meta Ads, Google Ads, social media marketing, lead generation and campaign optimization.">
+  <meta name="twitter:image" content="assets/abishek-profile.jpg">
+  <meta name="twitter:image:alt" content="Abishek W - Digital Marketer">
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       STICKY NAVIGATION BAR
+       ========================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Abishek W Homepage">
+        <span class="logo-badge">AW</span>
+        <span>ABISHEK W</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <div class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu & Overlay -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#experience" class="nav-link">Experience</a>
+    <a href="#work" class="nav-link">Work</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <a href="#contact" class="btn btn-primary btn-sm" style="margin-top: 1rem;">Let's Connect</a>
+  </nav>
+
+  <main>
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Left Content -->
+        <div class="hero-content fade-up">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            Open to Digital Marketing Opportunities
+          </div>
+          <span class="hero-title-prefix">Digital Marketer</span>
+          <h1 class="hero-title">
+            Turning Digital Strategies Into <span class="gradient-text">Meaningful Growth.</span>
+          </h1>
+          <p class="hero-description">
+            Dedicated <strong>Digital Marketer</strong> specializing in <strong>Meta Ads</strong>, <strong>SEO</strong>, <strong>Google Ads</strong>, social media marketing and campaign optimization.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              View My Work
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+        </div>
+
+        <!-- Hero Right: Real Profile Photograph & Marketing Showcase -->
+        <div class="hero-visual fade-up">
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-glow" aria-hidden="true"></div>
+            
+            <div class="hero-photo-card">
+              <img src="img.jpeg" alt="Abishek W - Digital Marketer" class="hero-photo" width="360" height="470" fetchpriority="high">
+              
+              <div class="hero-photo-overlay">
+                <div class="hero-photo-badge-info">
+                  <span class="hero-photo-name">Abishek W</span>
+                  <span class="hero-photo-role">Digital Marketer</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Concept Cards -->
+            <div class="floating-card card-meta">
+              <div class="floating-icon bg-meta">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+              </div>
+              <div class="floating-text">
+                <h4>Meta Ads</h4>
+                <p>Campaign Setup</p>
+              </div>
+            </div>
+
+            <div class="floating-card card-seo">
+              <div class="floating-icon bg-seo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </div>
+              <div class="floating-text">
+                <h4>SEO Strategy</h4>
+                <p>On-Page & Keywords</p>
+              </div>
+            </div>
+
+            <div class="floating-card card-google">
+              <div class="floating-icon bg-google">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div class="floating-text">
+                <h4>Google Ads</h4>
+                <p>Search Campaigns</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         ABOUT SECTION
+         ========================================== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Computer Science Background with a Passion for Digital Marketing</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-content fade-up">
+            <p>
+              I am a <strong>B.E. Computer Science and Engineering</strong> graduate with a deep passion for <strong>Digital Marketing</strong>. My technical background allows me to bring an analytical, structured, and data-driven perspective to digital marketing campaigns.
+            </p>
+            <p>
+              I possess foundational knowledge and practical training in <strong>Meta Ads</strong>, <strong>SEO</strong>, <strong>Google Ads</strong>, <strong>Social Media Marketing</strong>, <strong>Keyword Research</strong>, and <strong>Campaign Optimization</strong>. 
+            </p>
+            <p>
+              Whether it's configuring Meta Ads campaigns for lead generation, conducting in-depth keyword research for search visibility, or designing content for social channels, I am familiar with digital marketing tools and eager to contribute to the success of a growing organization.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <h4>Technical Foundation</h4>
+                <p>B.E. Computer Science & Engineering degree offering a strong analytical edge.</p>
+              </div>
+              <div class="highlight-box">
+                <h4>Campaign Focus</h4>
+                <p>Hands-on practice with Meta Ads targeting, budget setup & optimization.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card glass-card fade-up">
+            <div class="about-profile-header">
+              <img src="assets/abishek-profile.jpg" alt="Abishek W - Digital Marketer" class="about-avatar-photo" width="76" height="76" loading="lazy">
+              <div class="about-profile-info">
+                <h3 class="about-card-title-clean">Abishek W</h3>
+                <span class="about-card-subtitle">Digital Marketer</span>
+              </div>
+            </div>
+
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Location</span>
+                  <div class="info-value">Pathankady, Kanyakumari District, Tamil Nadu, India</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Education</span>
+                  <div class="info-value">B.E. Computer Science and Engineering</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Primary Focus</span>
+                  <div class="info-value">Digital Marketer | SEO & Meta Ads</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Languages</span>
+                  <div class="info-value">Tamil, English</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SKILLS SECTION
+         ========================================== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Capabilities</span>
+          <h2 class="section-title">Digital Marketing Skills</h2>
+          <p class="section-subtitle">Core competencies across paid channels, search engine optimization, and content marketing.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- 01 SEO -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">01</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3 class="skill-title">SEO</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">On-Page SEO</span>
+              <span class="skill-tag">Off-Page SEO</span>
+              <span class="skill-tag">Keyword Research</span>
+            </div>
+          </div>
+
+          <!-- 02 Meta Ads -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">02</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+            </div>
+            <h3 class="skill-title">Meta Ads</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Campaign Setup</span>
+              <span class="skill-tag">Audience Targeting</span>
+              <span class="skill-tag">Budget Configuration</span>
+              <span class="skill-tag">Placements</span>
+              <span class="skill-tag">Monitoring</span>
+              <span class="skill-tag">Optimization</span>
+            </div>
+          </div>
+
+          <!-- 03 Google Ads -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">03</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3 class="skill-title">Google Ads</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Search Campaigns</span>
+              <span class="skill-tag badge-basic">Basic Campaign Knowledge</span>
+            </div>
+          </div>
+
+          <!-- 04 Social Media Marketing -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">04</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <h3 class="skill-title">Social Media Marketing</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Instagram</span>
+              <span class="skill-tag">Facebook</span>
+              <span class="skill-tag">LinkedIn</span>
+              <span class="skill-tag">Content Creation</span>
+              <span class="skill-tag">Reels</span>
+            </div>
+          </div>
+
+          <!-- 05 Analytics -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">05</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3 class="skill-title">Analytics</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Meta Ads Manager</span>
+              <span class="skill-tag badge-basic">Google Analytics (Basic)</span>
+              <span class="skill-tag">Performance Monitoring</span>
+            </div>
+          </div>
+
+          <!-- 06 Content & Design -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">06</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <h3 class="skill-title">Content & Design</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Canva</span>
+              <span class="skill-tag">Social Media Posts</span>
+              <span class="skill-tag">Basic Graphic Design</span>
+              <span class="skill-tag">Content Creation</span>
+            </div>
+          </div>
+
+          <!-- 07 Keyword Research -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">07</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3 class="skill-title">Keyword Research</h3>
+            <div class="skill-tags">
+              <span class="skill-tag badge-basic">SEMrush (Basic)</span>
+              <span class="skill-tag badge-basic">Ahrefs (Basic)</span>
+            </div>
+          </div>
+
+          <!-- 08 Email Marketing -->
+          <div class="skill-card glass-card fade-up">
+            <span class="skill-number">08</span>
+            <div class="skill-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3 class="skill-title">Email Marketing</h3>
+            <div class="skill-tags">
+              <span class="skill-tag badge-basic">HubSpot (Basic)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         EXPERIENCE SECTION
+         ========================================== -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Career Background</span>
+          <h2 class="section-title">Experience & Practical Training</h2>
+        </div>
+
+        <div class="timeline">
+          <!-- Global AVN -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-company">Global AVN</h3>
+                  <div class="timeline-role">Digital Marketing</div>
+                </div>
+                <span class="timeline-badge">January 2026 – June 2026</span>
+              </div>
+              <div class="timeline-location">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Parvathipuram, Nagercoil
+              </div>
+              <ul class="timeline-list">
+                <li>Created and managed Meta Ads campaigns for lead generation.</li>
+                <li>Configured audience targeting, campaign budgets, and placements.</li>
+                <li>Monitored campaign performance using Meta Ads Manager.</li>
+                <li>Optimized campaigns based on performance metrics to improve results.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- IronCloud Technologies -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-company">IronCloud Technologies</h3>
+                  <div class="timeline-role">Digital Marketing Course</div>
+                </div>
+                <span class="timeline-badge">August 2025 – October 2025</span>
+              </div>
+              <div class="timeline-location">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Nagercoil (Course / Training)
+              </div>
+              <ul class="timeline-list">
+                <li>Learned On-Page SEO and Off-Page SEO fundamentals.</li>
+                <li>Learned Google Ads and Meta Ads campaign structures.</li>
+                <li>Practiced keyword research techniques using digital marketing tools.</li>
+                <li>Gained basic knowledge of Google Analytics and campaign optimization principles.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SELECTED WORK SECTION
+         ========================================== -->
+    <section id="work">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-subtitle">Structured case studies highlighting core digital marketing practices.</p>
+        </div>
+
+        <div class="work-grid">
+          <!-- Project 01 -->
+          <div class="work-card glass-card fade-up">
+            <div>
+              <span class="work-category">Meta Ads</span>
+              <h3 class="work-title">Meta Ads Campaign Management</h3>
+              <p class="work-desc">
+                "Campaign setup, audience targeting, budget configuration, placements, performance monitoring and campaign optimization."
+              </p>
+              <div class="work-tools">
+                <span class="tool-pill">Meta Ads Manager</span>
+              </div>
+            </div>
+            <div class="work-footer">
+              <button class="btn btn-outline btn-sm btn-case-study" data-project="meta-ads">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 02 -->
+          <div class="work-card glass-card fade-up">
+            <div>
+              <span class="work-category">SEO</span>
+              <h3 class="work-title">SEO & Keyword Research</h3>
+              <p class="work-desc">
+                "Keyword research and foundational On-Page SEO and Off-Page SEO practices focused on improving website visibility."
+              </p>
+              <div class="work-tools">
+                <span class="tool-pill">SEMrush</span>
+                <span class="tool-pill">Ahrefs</span>
+              </div>
+            </div>
+            <div class="work-footer">
+              <button class="btn btn-outline btn-sm btn-case-study" data-project="seo-research">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 03 -->
+          <div class="work-card glass-card fade-up">
+            <div>
+              <span class="work-category">Social Media Marketing</span>
+              <h3 class="work-title">Social Media Content</h3>
+              <p class="work-desc">
+                "Social media content concepts, social media post design, content creation and Reels."
+              </p>
+              <div class="work-tools">
+                <span class="tool-pill">Canva</span>
+                <span class="tool-pill">Instagram</span>
+                <span class="tool-pill">Facebook</span>
+              </div>
+            </div>
+            <div class="work-footer">
+              <button class="btn btn-outline btn-sm btn-case-study" data-project="social-media">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TOOLS SECTION
+         ========================================== -->
+    <section id="tools">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Stack & Software</span>
+          <h2 class="section-title">Tools I Work With</h2>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+            </div>
+            <div class="tool-name">Meta Ads Manager</div>
+          </div>
+
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <div class="tool-name">Google Ads</div>
+            <span class="tool-badge-basic">Basic</span>
+          </div>
+
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <div class="tool-name">Google Analytics</div>
+            <span class="tool-badge-basic">Basic</span>
+          </div>
+
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <div class="tool-name">SEMrush</div>
+            <span class="tool-badge-basic">Basic</span>
+          </div>
+
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
+            </div>
+            <div class="tool-name">Ahrefs</div>
+            <span class="tool-badge-basic">Basic</span>
+          </div>
+
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+            </div>
+            <div class="tool-name">Canva</div>
+          </div>
+
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="tool-name">HubSpot</div>
+            <span class="tool-badge-basic">Basic</span>
+          </div>
+
+          <div class="tool-card glass-card fade-up">
+            <div class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+            </div>
+            <div class="tool-name">Search Console</div>
+            <span class="tool-badge-basic">Basic</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         WHAT I CAN HELP WITH SECTION
+         ========================================== -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Services</span>
+          <h2 class="section-title">What I Can Help With</h2>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1 -->
+          <div class="service-card glass-card fade-up">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+            </div>
+            <h3 class="service-title">Meta Ads Campaign Management</h3>
+            <p class="service-desc">
+              Setting up structured lead generation campaigns, defining target audiences, setting daily budgets, and monitoring performance in Meta Ads Manager.
+            </p>
+          </div>
+
+          <!-- 2 -->
+          <div class="service-card glass-card fade-up">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3 class="service-title">SEO & Keyword Research</h3>
+            <p class="service-desc">
+              Conducting keyword research to identify search opportunities, optimizing On-Page metadata, and applying foundational Off-Page SEO practices.
+            </p>
+          </div>
+
+          <!-- 3 -->
+          <div class="service-card glass-card fade-up">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="service-title">Lead Generation</h3>
+            <p class="service-desc">
+              Designing targeted campaign flows to capture qualified leads through Meta Ads and digital channels for local and growing businesses.
+            </p>
+          </div>
+
+          <!-- 4 -->
+          <div class="service-card glass-card fade-up">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </div>
+            <h3 class="service-title">Social Media Marketing</h3>
+            <p class="service-desc">
+              Managing content strategy for Facebook, Instagram, and LinkedIn to build consistent brand presence and engage target audiences.
+            </p>
+          </div>
+
+          <!-- 5 -->
+          <div class="service-card glass-card fade-up">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3 class="service-title">Google Ads</h3>
+            <p class="service-desc">
+              Applying foundational Google Ads search campaign knowledge to capture high-intent search traffic for relevant business queries.
+            </p>
+          </div>
+
+          <!-- 6 -->
+          <div class="service-card glass-card fade-up">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+            </div>
+            <h3 class="service-title">Content Creation</h3>
+            <p class="service-desc">
+              Creating visual post concepts, social media graphics via Canva, engaging copy, and short-form video concepts (Reels).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         MY JOURNEY & EDUCATION SECTION
+         ========================================== -->
+    <section id="journey">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Education & Growth</span>
+          <h2 class="section-title">My Journey</h2>
+        </div>
+
+        <div class="journey-grid">
+          <!-- Timeline Journey Left Column -->
+          <div class="fade-up">
+            <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem; color: var(--accent-blue);">Timeline Overview</h3>
+            
+            <div class="edu-card glass-card">
+              <div class="edu-year">2021 – 2025</div>
+              <div class="edu-degree">B.E. Computer Science and Engineering</div>
+              <div class="edu-institution">Stella Mary's College of Engineering</div>
+            </div>
+
+            <div class="edu-card glass-card">
+              <div class="edu-year">August 2025 – October 2025</div>
+              <div class="edu-degree">Digital Marketing Course</div>
+              <div class="edu-institution">IronCloud Technologies, Nagercoil</div>
+            </div>
+
+            <div class="edu-card glass-card">
+              <div class="edu-year">January 2026 – June 2026</div>
+              <div class="edu-degree">Digital Marketing</div>
+              <div class="edu-institution">Global AVN, Parvathipuram, Nagercoil</div>
+            </div>
+          </div>
+
+          <!-- Education & Additional Info Right Column -->
+          <div class="fade-up">
+            <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem; color: var(--accent-indigo);">Academic Details</h3>
+            
+            <div class="edu-card glass-card">
+              <div class="edu-year">2021 – 2025</div>
+              <div class="edu-degree">B.E. Computer Science and Engineering</div>
+              <div class="edu-institution">Stella Mary's College of Engineering</div>
+            </div>
+
+            <div class="edu-card glass-card">
+              <div class="edu-year">2020 – 2021</div>
+              <div class="edu-degree">Higher Secondary Education</div>
+              <div class="edu-institution">Government Higher Secondary School, Edathamozhi</div>
+            </div>
+
+            <!-- Additional Info Chips -->
+            <div class="additional-box glass-card">
+              <h4 class="additional-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                Certifications & Interests
+              </h4>
+              <div class="chip-list" style="margin-bottom: 1rem;">
+                <span class="chip" style="background: rgba(99,102,241,0.15); border-color: rgba(99,102,241,0.3); color: #a5b4fc;">Certification: Digital Marketing</span>
+              </div>
+              <div class="chip-list">
+                <span class="chip">Social Media Trends</span>
+                <span class="chip">Content Creation</span>
+                <span class="chip">Reels</span>
+                <span class="chip">Tamil</span>
+                <span class="chip">English</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT SECTION
+         ========================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Build Something That Gets Attention.</h2>
+          <p class="section-subtitle">Looking for a Digital Marketing professional? Let's connect and discuss opportunities.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-card glass-card fade-up">
+            <h3 class="contact-headline">Ready to Start a Conversation?</h3>
+            <p class="contact-subtext">
+              I am open to full-time roles, junior digital marketing positions, campaign projects, and freelance opportunities. Feel free to reach out directly.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="contact-method-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <span class="contact-method-label">Email</span>
+                  <div>
+                    <a href="mailto:abishek1234b@gmail.com" class="contact-method-value">abishek1234b@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-method-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-method-label">Phone</span>
+                  <div>
+                    <a href="tel:+919489240449" class="contact-method-value">+91 9489240449</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-method-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-method-label">LinkedIn</span>
+                  <div>
+                    <a href="https://linkedin.com/in/abishekw06" target="_blank" rel="noopener noreferrer" class="contact-method-value">linkedin.com/in/abishekw06</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-method-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="contact-method-label">Location</span>
+                  <div class="contact-method-value" style="font-size: 0.95rem;">Pathankady, Kanyakumari District, Tamil Nadu, India</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-card glass-card fade-up">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Hello Abishek, I'd like to discuss a digital marketing opportunity..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div id="formStatus" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">ABISHEK W</div>
+          <p style="color: var(--accent-blue); font-weight: 600; margin-bottom: 0.5rem;">Digital Marketer</p>
+          <p class="footer-tagline">Digital Marketing • SEO • Paid Advertising • Social Media</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#experience" class="footer-link">Experience</a>
+          <a href="#work" class="footer-link">Work</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Abishek W. All rights reserved.</div>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/abishekw06" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          </a>
+          <a href="mailto:abishek1234b@gmail.com" class="social-icon" aria-label="Send Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       CASE STUDY MODAL
+       ========================================== -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <div class="modal-close" id="modalClose" aria-label="Close modal">&times;</div>
+      <span class="modal-category" id="modalCategory">Category</span>
+      <h3 class="modal-title" id="modalTitle">Case Study Title</h3>
+      <div class="modal-body" id="modalBody">
+        <!-- Content injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
